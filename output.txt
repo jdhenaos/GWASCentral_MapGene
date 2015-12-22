@@ -1,0 +1,10 @@
+GAB2[intronic]	rs2373115
+GAB2[intronic]	rs7115850
+GAB2[exonic]	rs1385600
+GAB2[intronic]	rs4945261
+GAB2[intronic]	rs10793294
+GAB2[intronic]	rs1007837
+GAB2[intronic]	rs901104
+GAB2[intronic]	rs4291702
+GAB2[intronic]	rs7101429
+GAB2[intronic]	rs2510038

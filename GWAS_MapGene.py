@@ -6,13 +6,12 @@
 import urllib2
 
 
-# In[150]:
+# In[155]:
 
 infile = open("/home/juan/Documentos/GWASCentral_MapGene/test.txt","r")
-outfile = open("output.txt","w")
 
 
-# In[151]:
+# In[156]:
 
 def MapGene(link):
     open_link = urllib2.urlopen(link)
@@ -27,7 +26,7 @@ def MapGene(link):
     map_gene = white_spaces_map[9:]
     
     open_link.close()
-    outfile.write(map_gene+"\t"+ID_SNP)
+    print map_gene+"\t"+ID_SNP
     
 for i in infile.readlines():
     pos_web_final = i.find("/",39)
@@ -37,7 +36,6 @@ for i in infile.readlines():
 # In[145]:
 
 infile.close()
-outfile.close()
 
 
 # In[ ]:
