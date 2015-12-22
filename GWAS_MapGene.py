@@ -4,11 +4,11 @@
 # In[137]:
 
 import urllib2
-
+import sys
 
 # In[155]:
 
-infile = open("/home/juan/Documentos/GWASCentral_MapGene/test.txt","r")
+infile = open(sys.argv[1])
 
 
 # In[156]:
